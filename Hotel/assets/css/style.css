@@ -374,7 +374,8 @@ body {
   background: #F5FAFE;
   font-family: Mulish;
   font-style: normal;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .container {
