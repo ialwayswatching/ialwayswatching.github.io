@@ -46,7 +46,7 @@ p {
     width: 500px;
     height: 400px;
     border-radius: 14px;
-    transition: 0.5s;
+    transition: 0.3s;
     border: 0px solid transparent;
     outline: none
 }
