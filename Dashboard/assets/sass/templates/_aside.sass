@@ -1,0 +1,83 @@
+.aside
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 256px
+    border-right: 1px solid var(--color-border)
+    background-color: var(--color-aside)
+    border-radius: 24px 0 0 24px
+    height: 100%
+    &-logo
+        display: inline-block
+        font-family: Poppins
+        font-style: normal
+        font-weight: 600
+        font-size: 32px
+        line-height: 48px
+        letter-spacing: -1px
+        color: var(--color-item-text)
+        margin-bottom: 59px
+        padding-left: 42px
+        padding-top: 51px
+        & .dot
+            padding: 0
+            margin: 0
+    &-user
+        padding: 26px 10px 30px 24px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &__details
+            display: flex
+        &__avatar
+            margin-right: 16px
+            width: 40px
+            height: 40px
+            border-radius: 100%
+        &__text
+            display: flex
+            flex-direction: column
+        &__name
+            font-size: 14px
+            line-height: 20px
+            color: var(--color-item-text)
+        &__account
+            font-size: 13px
+            line-height: 18px
+            color: #808191
+        &__icons
+            display: flex
+            align-items: center
+            flex-direction: column
+            justify-content: space-around
+            width: 24px
+            height: 24px
+            & .icon
+                width: 10px
+                height: 6px
+                stroke: var(--color-item-text)
+                margin-right: 0
+.nav
+    &-list
+    &-item
+        display: flex
+        align-items: center
+        width: 216px
+        border-radius: 0px 12px 12px 0px
+        transition: 0.3s ease-in-out
+        &:hover
+            background: var(--color-slide)
+            border-radius: 0px 12px 12px 0px
+            & .icon
+                stroke: var(--color-white)
+            & .nav-link
+                color: var(--color-white)
+        &__block
+            display: flex
+            align-items: center
+            padding: 16px 40px 16px 24px
+    &-link
+        font-weight: 600
+        font-size: 14px
+        line-height: 20px
+        color: $colorTextGrey

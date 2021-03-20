@@ -1,0 +1,132 @@
+.content
+    &-side
+        border-radius: 0 24px 24px 0
+        background: var(--color-side)
+        padding: 48px 35px 0 24px
+.side
+    &-header
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 84px
+        & svg
+            width: 20px
+            height: 20px
+            padding: 2px
+            display: flex
+            align-items: center
+            justify-content: center
+    &-search
+        display: flex
+        align-items: center
+        fill: var(--color-search)
+    &-input
+        max-width: 210px
+        outline: none
+        border: none
+        background: transparent
+        font-weight: 600
+        font-size: 14px
+        line-height: 20px
+        padding-left: 16px
+        padding-right: 16px
+        color: #808191
+        &::placeholder
+            font-size: 14px
+            line-height: 20px
+            color: #808191
+            transition: all 0.3s ease-in-out
+        &:focus::placeholder
+            color: transparent
+    &-notification
+        cursor: pointer
+        position: relative
+        padding: 12px
+        box-shadow: 4px 4px 4px 4px var(--color-shadow)
+        opacity: 0.91
+        background-color: var(--color-notification)
+        border-radius: 100%
+        stroke: var(--color-item-text)
+        fill: var(--color-ding)
+        margin-right: 16px
+        &__number
+            position: absolute
+            right: -12px
+            top: 0
+            content: ''
+            border-radius: 100%
+            width: 24px
+            height: 24px
+            background-color: #FF754C
+            font-size: 12px
+            line-height: 16px
+            color: $colorWhite
+            display: flex
+            align-items: center
+            justify-content: center
+    &-item
+        cursor: pointer
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 444px
+        padding: 14px 24px
+        background: var(--color-item)
+        border-radius: 16px
+        box-shadow: 4px 4px 4px 4px var(--color-shadow)
+        margin-bottom: 8px
+        transition: 0.3s ease-in-out
+        &:last-child
+            margin-bottom: 53px
+        &:hover
+            transform: scale(1.05)
+            transition: 0.2s ease-in-out
+        &__title
+            font-size: 16px
+            line-height: 19px
+            color: var(--color-item-text)
+            margin-bottom: 24px
+        &__rectangle
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 56px
+            height: 56px
+            border-radius: 16px
+        &__circle
+            width: 32px
+            height: 32px
+            background-color: $colorWhite
+            border-radius: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+        &__icon
+            width: 20px
+            height: 20px
+    &-text
+        width: 243px
+        &__title
+            font-size: 16px
+            line-height: 19px
+            color: var(--color-item-text)
+            margin-bottom: 3px
+        &__subtitle
+            font-size: 13px
+            line-height: 18px
+            color: $colorTextGrey
+    &-chevron
+        width: 4px
+        height: 8px
+        stroke: var(--color-item-text)
+    &-flex
+        width: 323px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-canvas
+        background: var(--color-canvas)
+        border-radius: 24px
+        box-shadow: 4px 4px 4px 4px var(--color-shadow)
+    &-btns
+        display: flex

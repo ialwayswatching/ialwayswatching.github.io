@@ -1,0 +1,93 @@
+.header
+    background: #FFFFFF
+    & .container
+        padding: 40px 15px
+        background: #FFFFFF
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-block
+        width: 635px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-logo
+        @include Lucky()
+        font-size: 24px
+        line-height: 24px
+        color: $textColor
+        & a
+            color: #333
+    &-search
+        display: flex
+        align-items: center
+        cursor: pointer
+    &-input
+        width: 285px
+        font-weight: normal
+        font-size: 12px
+        line-height: 15px
+        color: $textColor
+        background: #F5FAFE
+        border-radius: 6px
+        outline: none
+        border: none
+        padding: 12px 0 13px 23px
+    &-icon
+        padding: 12px 24px 12px 25px
+        background: $btnColor
+        color: #fff
+        border-radius: 0 6px 6px 0
+    &-profile
+        display: flex
+        align-items: center
+        width: 107px
+        justify-content: space-between
+    &-avatar
+        height: 40px
+        width: 40px
+        border-radius: 100%
+        cursor: pointer
+    &-text
+        display: flex
+        font-weight: normal
+        font-size: 14px
+        line-height: 18px
+        color: $textColor
+        cursor: pointer
+.burger
+    display: none
+    width: 16px
+    height: 11px
+    background-color: transparent
+    border-radius: 100%
+    position: relative
+    &-item
+        position: absolute
+        background-color: #000
+        width: 16px
+        height: 1px
+        &::before
+            position: absolute
+            top: -4px
+            left: 0
+            content: ""
+            background-color: #000
+            width: 16px
+            height: 1px
+        &::after
+            position: absolute
+            content: ""
+            top: 4px
+            left: 0
+            background-color: #000
+            width: 16px
+            height: 1px
+.header_fixed
+    position: fixed!important
+    top: 0
+    left: 0
+    right: 0
+    width: 100%
+    background-color: #fff
+    z-index: 99999999

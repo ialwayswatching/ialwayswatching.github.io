@@ -1,0 +1,63 @@
+.activities
+    margin-bottom: 98px
+    &-title
+        font-weight: bold
+        font-size: 24px
+        line-height: 30px
+        text-transform: uppercase
+        color: #000000
+        margin-bottom: 57px
+    &-group
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-item
+        position: relative
+        &:hover .activities-item_title
+            bottom: 72px
+            transition: 0.4s ease-in-out
+        &:hover .activities-item_book
+            bottom: 30px
+            opacity: 1
+            transition: 0.4s ease-in-out
+        &::before
+            position: absolute
+            content: ""
+            top: 0
+            left: 0
+            width: 255px
+            height: 255px
+            background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%)
+            border-radius: 6px
+            z-index: 9
+        &_img
+            display: block
+            width: 255px
+            height: 255px
+            border-radius: 6px
+            z-index: 8
+        &_title
+            position: absolute
+            bottom: 10px
+            left: 26px
+            font-weight: bold
+            font-size: 16px
+            line-height: 20px
+            color: #FFFFFF
+            z-index: 99
+            transition: 0.4s ease-in-out
+        &_book
+            position: absolute
+            bottom: 10px
+            left: 26px
+            cursor: pointer
+            font-weight: 600
+            font-size: 12px
+            line-height: 16px
+            color: #FFFFFF
+            padding: 7px 22px
+            background: $btnColor
+            border-radius: 4px
+            opacity: 0
+            transition: 0.4s ease-in-out
+            z-index: 99

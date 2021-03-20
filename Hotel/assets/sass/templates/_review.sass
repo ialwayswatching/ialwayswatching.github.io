@@ -1,0 +1,95 @@
+.review
+    display: flex
+    align-items: center
+    flex-direction: column
+    margin-bottom: 70px
+    &-title
+        font-weight: bold
+        font-size: 36px
+        line-height: 45px
+        text-align: center
+        text-transform: uppercase
+        color: #333333
+        margin-bottom: 70px
+    &-slider
+        height: 325px!important
+        width: 731px!important
+        position: relative
+        border-radius: 8px
+        &_item
+            position: relative
+            border: none
+            outline: none
+.item
+    &-user
+        position: absolute
+        top: -45px
+        left: 50%
+        transform: translateX(-50%)
+        display: flex
+        align-items: center
+        flex-direction: column
+        margin-bottom: 32px
+        &_avatar
+            height: 90px
+            width: 90px
+            border-radius: 100%
+            margin-bottom: 9px
+        &_name
+            font-weight: bold
+            font-size: 12px
+            line-height: 15px
+            color: $btnColor
+            margin-bottom: 10px
+        &_date
+            font-weight: normal
+            font-size: 10px
+            line-height: 13px
+            color: #000000
+            margin-bottom: 4px
+        &_stars
+            display: flex
+        &_stars > img
+            margin-right: 2px
+            &:last-child
+                margin-right: 0
+    &-text
+        max-width: 731px
+        font-weight: normal
+        font-size: 12px
+        line-height: 160%
+        text-align: justify
+        color: #333333
+        padding: 136.04px 95px 29.96px 99px
+        background-color: #fff
+
+.review-slider > .slick-list
+    padding-top: 45px
+.review-slider > .slick-prev, .review-slider > .slick-next
+    position: absolute
+    top: 50%
+    left: -161px
+    z-index: 9
+    border: none
+    outline: none
+    font-size: 0
+    background: none
+    padding: 0
+    opacity: 1
+.review-slider > .slick-next
+    right: -161px
+    left: auto
+.review-slider > .slick-prev:before
+    cursor: pointer
+    position: absolute
+    content: ""
+    background-image: url('../images/icons/left-dark.svg')
+    width: 10px
+    height: 17.5px
+.review-slider > .slick-next:before
+    cursor: pointer
+    position: absolute
+    content: ""
+    width: 10px
+    height: 17.5px
+    background-image: url('../images/icons/right-dark.svg')

@@ -1,0 +1,162 @@
+.content
+    display: flex
+    padding-left: 34px
+    background: var(--color-content)
+    border-radius: 0 24px 24px 0
+    &-main
+        margin-top: 47px
+        padding-right: 15px
+    &-title
+        font-family: Poppins
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 32px
+        color: var(--color-item-text)
+    &-subtitle
+        font-family: Poppins
+        font-style: normal
+        font-size: 40px
+        line-height: 60px
+        letter-spacing: -1px
+        color: var(--color-item-text)
+        margin-bottom: 32px
+    &-slider
+    &-slide
+        height: 405px
+        background: var(--color-slide)
+        border-radius: 24px
+    &-item
+        display: flex
+        align-items: center
+        padding: 18px 27px 28px 14px
+        &__img
+            width: 359px
+            height: 359px
+        &__details
+    &-paths
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 619px
+.details
+    &-title
+        width: 226px
+        font-family: Poppins
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        line-height: 32px
+        color: var(--color-white)
+        margin-bottom: 8px
+    &-text
+        font-family: Inter
+        font-style: normal
+        font-weight: normal
+        width: 203px
+        font-size: 14px
+        line-height: 24px
+        color: var(--color-white)
+        margin-bottom: 16px
+    &-btn
+        cursor: pointer
+        font-family: Inter
+        font-style: normal
+        font-weight: bold
+        font-size: 14px
+        line-height: 20px
+        text-align: center
+        color: var(--color-item-text)
+        width: 158px
+        height: 56px
+        background: var( --color-btn)
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250929)
+        border-radius: 16px
+        border: none
+        outline: none
+        transition: 0.2s ease-in-out
+        &:hover
+            transform: scale(1.05)
+.path
+    cursor: pointer
+    padding: 24px 21px 14px 20px
+    background: var(--color-item)
+    border-radius: 24px
+    box-shadow: 4px 4px 4px 4px var(--color-shadow)
+    opacity: 0.91
+    transition: 0.2s ease-in-out
+    &:hover
+        transform: scale(1.02)
+    &-top
+        margin-bottom: 16px
+        &__title
+            font-size: 16px
+            line-height: 19px
+            letter-spacing: -0.5px
+            color: var(--color-item-text)
+            margin-bottom: 8px
+        &__text
+            font-size: 12px
+            line-height: 16px
+            color: #808191
+            width: 149px
+            margin-bottom: 37px
+            &:nth-child(2)
+                width: 146px
+        &__students
+            font-size: 12px
+            line-height: 100%
+            color: $colorTextGrey
+            opacity: 0.5
+    &-bottom
+        display: flex
+        width: 149px
+        justify-content: space-between
+        align-items: center
+        &__avatars
+            width: 64px
+            height: 24px
+            position: relative
+        &__avatar
+            object-fit: cover
+            width: 24px
+            height: 24px
+            position: absolute
+            content: ''
+            border-radius: 100%
+            left: 0
+            bottom: 0
+            z-index: 1
+            &:nth-child(2)
+                left: 8px
+                z-index: 2
+            &:nth-child(3)
+                left: 16px
+                z-index: 3
+            &:nth-child(4)
+                left: 24px
+                z-index: 4
+            &:nth-child(5)
+                left: 32px
+                z-index: 5
+            &:nth-child(6)
+                left: 40px
+                z-index: 6
+        &__star
+            width: 16px
+            height: 16px
+            background-image: url(../images/star.svg)
+        &__more
+            display: flex
+            cursor: pointer
+            align-self: center
+        &__icons
+            display: flex
+            width: 38px
+            justify-content: space-between
+        &__icon
+            fill: var(--color-more)
+            opacity: 0.3
+            margin-right: 2px
+            &::last-child
+                margin-right: 0

@@ -1,0 +1,30 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20" id="diamond">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.28686 7.06738L10.5362 19.0779L0.0322266 7.06738H4.28686Z" fill="#EA6C00"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7872 7.06738L10.5379 19.0779L21.0418 7.06738H16.7872Z" fill="#EA6C00"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.28659 7.06738H16.7852L10.5359 19.0779L4.28659 7.06738Z" fill="#FDAD00"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5359 0.411621L4.61551 1.02612L4.28659 7.06782L10.5359 0.411621Z" fill="#FDD231"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5359 0.411621L16.4563 1.02612L16.7852 7.06782L10.5359 0.411621Z" fill="#FDD231"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.0418 7.06758L16.4583 1.02588L16.7872 7.06758H21.0418Z" fill="#FDAD00"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0322266 7.06758L4.61578 1.02588L4.28686 7.06758H0.0322266Z" fill="#FDAD00"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5359 0.411621L4.28659 7.06782H16.7852L10.5359 0.411621Z" fill="#FEEEB7"/>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 22" id="fire">
+    <path d="M6.066 21.998c-1.357-.57-2.628-2.019-2.631-3.502-.004-1.616 1.05-2.989 2.362-3.89-.157.578-.243 1.107.147 1.625.364.481 1 .715 1.6.588 1.404-.298 1.468-1.797.636-2.67-.823-.865-1.618-1.842-1.305-3.096.157-.628.554-1.217 1.057-1.638-.387.988.713 1.962 1.437 2.447 1.256.842 2.635 1.478 3.79 2.465 1.215 1.037 2.113 2.439 1.931 4.065-.196 1.763-1.638 2.99-3.255 3.608 3.417-.733 6.949-3.31 7.02-6.992.06-3.029-2.078-5.36-4.728-6.695l-.138-.073c.072.171.096.317.093.447.024-.096.04-.195.045-.297 0 .121-.017.242-.049.36l.005-.063c-.04.161-.106.315-.197.455l.04-.041c-.53.852-1.96 1.037-2.667.155-1.137-1.419.023-2.949.186-4.451.203-1.883-1.013-3.711-2.52-4.805.83 1.304-.263 3.03-1.138 3.995-.848.935-1.88 1.716-2.817 2.566-1.006.913-1.973 1.874-2.8 2.945C.517 11.65-.496 14.347.248 17.022c.744 2.673 3.127 4.375 5.818 4.976z" fill="#EE4323"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 25" id="firebase">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 20.002l.15-.21L7.226 6.327l.015-.143L4.12.308a.578.578 0 00-1.08.183L0 20.002z" fill="#FFC24A"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M.088 19.842l.113-.221L7.204 6.296 4.092.396c-.259-.487-.915-.363-1 .183L.088 19.842z" fill="#FFA712"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M.088 19.842l.113-.221L7.204 6.296 4.092.396c-.259-.487-.915-.363-1 .183L.088 19.842z" fill="#000"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.515 10.629l2.323-2.386-2.324-4.448a.598.598 0 00-1.054 0L7.218 6.17v.202l2.297 4.258z" fill="#F4BD62"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.473 10.53l2.259-2.32L9.474 3.9c-.215-.41-.736-.453-.948-.042l-1.248 2.41-.037.124 2.232 4.139z" fill="#FFA50E"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.473 10.53l2.259-2.32L9.474 3.9c-.215-.41-.736-.453-.948-.042l-1.248 2.41-.037.124 2.232 4.139z" fill="#000"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 20.003l.068-.069.246-.1 9.055-9.047.115-.314-2.259-4.316L0 20.003z" fill="#F6820C"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.805 24.565L18 19.98 15.66 5.529a.56.56 0 00-.95-.307L0 20.002l8.148 4.563a1.696 1.696 0 001.657 0z" fill="#FDE068"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.927 19.943L15.604 5.599c-.072-.449-.532-.635-.853-.313L.091 19.974l8.058 4.517a1.683 1.683 0 001.645 0l8.133-4.548z" fill="#FCCA3F"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.805 24.43a1.696 1.696 0 01-1.657 0L.066 19.932l-.066.07 8.148 4.561a1.696 1.696 0 001.657 0L18 19.983l-.02-.124-8.175 4.572z" fill="#EEAB37"></path>
+  </symbol>
+  <symbol fill='none' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10" id="chevron-right">
+    <path d="M1 1L5 5L1 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>

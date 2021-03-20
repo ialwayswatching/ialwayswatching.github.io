@@ -1,0 +1,101 @@
+*, *:before, *:after
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    transition: .3s ease-in
+@mixin Inter
+    font-family: 'Inter', sans-serif
+    font-style: normal
+    font-weight: 600
+a
+    text-decoration: none
+body
+    @include Inter
+    position: relative
+    background-image: var(--bg-image)
+    background-size: cover
+    background-repeat: no-repeat
+.wrapper
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100vh
+    width: 100vw
+.container
+    height: 916px
+    background: --bodyColor
+    border-radius: 24px
+    display: flex
+.d-none
+    display: none
+.icon
+    height: 24px
+    width: 24px
+    fill: transparent
+    stroke: #A3A3A5
+    margin-right: 16px
+ul
+    list-style-type: none
+    padding: 0
+    margin: 0
+h2
+    font-family: Inter
+    font-style: normal
+    font-weight: bold
+    font-size: 22px
+    line-height: 163.42%
+    color: var(--color-text)
+    margin-bottom: 16px
+.rectangle-red
+    background-color: #FFA2C0
+.rectangle-yellow
+    background: #FFCE73
+.rectangle-blue
+    background: #A0D7E7
+.rectangle-green
+    background: #B2E2D7
+.swiper-container
+    width: 600px
+    height: 415px
+    margin-bottom: 42px
+.swiper-container-vertical>.swiper-pagination-bullets
+    display: flex
+    justify-content: space-between
+    width: 50px
+    right: 170px
+    top: 92%
+.swiper-pagination-bullet
+    background: $colorWhite
+    border: 2px solid #A0D7E7
+.swiper-wrapper
+    border-radius: 24px
+.swiper-container
+    border-radius: 24px
+.dot
+    font-size: 48px
+    line-height: 72px
+    color: #FF7C5D
+.theme-switch
+    & input
+        display: none
+.slider
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: var(--checkbox-color)
+    box-shadow: 4px 4px 4px 4px var(--color-shadow)
+    background-image: var(--checkbox-img)
+    background-color: var(--checkbox-bg-color)
+    cursor: pointer
+    transition: .4s
+    padding: 4px
+    background-size: 38%
+    background-repeat: no-repeat
+    background-position: center center
+    width: 44px
+    height: 44px
+    &.round
+        border-radius: 25px
+
+    &.round:before
+        border-radius: 50%

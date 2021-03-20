@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    left: 28px;
+    z-index: 9;
+    border: none;
+    outline: none;
+    font-size: 0;
+    background: none;
+    padding: 0;
+    opacity: 0.8;
+}
+.slick-next {
+    right: 38px;
+    left: auto;
+}
+.slick-prev:before {
+    cursor: pointer;
+    position: absolute;
+    content: "";
+    background-image: url('../images/icons/chevron-left.svg');
+    width: 10px;
+    height: 17.5px;
+}
+
+.slick-next:before {
+    cursor: pointer;
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 18px;
+    background-image: url('../images/icons/chevron-right.svg')
+}
