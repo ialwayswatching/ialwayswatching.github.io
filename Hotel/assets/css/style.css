@@ -1241,6 +1241,10 @@ pre {
   fill: #BDBDBD;
 }
 
+.footer-social__icon:hover {
+  fill: #fff;
+}
+
 .footer-legal {
   margin-right: 0;
   margin-left: auto;
@@ -1267,6 +1271,10 @@ pre {
 
 .footer-link {
   color: inherit;
+}
+
+.footer-link:hover {
+  color: #fff;
 }
 
 .footer-details {
@@ -1426,6 +1434,10 @@ pre {
   font-size: 12px;
   line-height: 15px;
   text-decoration: none;
+}
+
+.footer-bottom__link:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom__img {
