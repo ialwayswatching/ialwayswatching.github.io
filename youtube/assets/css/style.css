@@ -5,9 +5,12 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
-
 a {
     text-decoration: none;
 }
@@ -15,6 +18,7 @@ header{
     display: flex;
     align-items: center;
     padding: 20px 70px 20px 32px;
+    margin-bottom: 30px;
 }
 
 .menu__button {
@@ -56,6 +60,7 @@ header{
     border: none;
     outline: none;
     padding: 12px 23px;
+    width: 100%;
 }
 
 .input__button {
@@ -123,4 +128,61 @@ header{
     height: 100%;
     border-radius: 100%;
     object-fit: contain;
+}
+
+.nav__icon {
+    fill: #000;
+    opacity: .24;
+    transition: .2s ease-in-out;
+}
+
+.sidebar {
+    padding-left: 32px;
+    padding-bottom: 40px;
+}
+.nav__menu {
+    list-style-type: none;
+    margin-bottom: 60px;
+}
+.nav__item {
+    margin-bottom: 28px;
+}
+
+.nav__item:hover .nav__link{
+    color: #FF0000;
+}
+.nav__item:hover .nav__icon {
+    fill: #FF0000;
+    opacity: 1;
+}
+
+.nav__item:last-child{
+    margin-bottom: 0;
+}
+.nav__text {
+    margin-left: 13px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    color: #898989;
+    transition: .2s ease-in-out;
+}
+
+.nav__image {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.nav__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+.setting {
+    margin-top: 100px;
 }
