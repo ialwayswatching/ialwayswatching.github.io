@@ -19,6 +19,12 @@ header{
     align-items: center;
     padding: 20px 70px 20px 32px;
     margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
 }
 
 .menu__button {
@@ -139,6 +145,15 @@ header{
 .sidebar {
     padding-left: 32px;
     padding-bottom: 40px;
+    position: fixed;
+    width: 12%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 114px;
+    background-color: #fff;
+    z-index: 8;
 }
 .nav__menu {
     list-style-type: none;
@@ -183,6 +198,189 @@ header{
     margin-bottom: 30px;
     color: #000000;
 }
+
 .setting {
     margin-top: 100px;
+}
+
+.content {
+    margin-top: 90px;
+    padding-left: 13%;
+    padding-top: 30px;
+    padding-bottom: 64px;
+}
+.channel__title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+    margin-bottom: 30px;
+}
+.channel__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.video__thumb {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 14px;
+}
+.video__card {
+    width: 250px;
+}
+
+.thumbnail {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.video__duration {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.3);
+    mix-blend-mode: normal;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 3px 9px;
+}
+
+.video__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.video__info {
+    display: flex;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video__counter {
+    display: flex;
+}
+
+.video__views {
+    margin-right: 5px;
+}
+
+.video__views:after {
+    content: '';
+    width: 2px;
+    height: 2px;
+    background-color: #c2c2c2;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.channel__button {
+    cursor: pointer;
+    border: none;
+    outline: none
+}
+
+.icon__left, .icon__right {
+    width: 28px;
+    height: 28px;
+    fill: #000;
+    opacity: 0.24;
+}
+.channel {
+    position: relative;
+    margin-bottom: 50px;
+}
+.slider__buttons {
+    position: absolute;
+    top: 15px;
+    right: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 66px;
+}
+
+.recomend__title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+    margin-bottom: 30px;
+}
+
+.recomend__slide > .video__card {
+    width: 540px;
+}
+
+.recomend__slide >  .video__card > .video__thumb {
+    width: 540px;
+    height: 250px;
+}
+
+.recomend__slide >  .video__card > .video__thumb > .thumbnail {
+    width: 540px;
+    height: 250px;
+}
+
+.recomend {
+    position: relative;
+    margin-bottom: 50px;
+}
+.recomendation {
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    margin-left: 19px;
+}
+
+.food {
+    position: relative;
+}
+.food__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.food__link {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.subscribe {
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #FF0000;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
